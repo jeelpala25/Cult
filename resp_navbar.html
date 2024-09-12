@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-4.6.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- <link rel="stylesheet" href="cultfitF1.css"> -->
+    <link rel="sty">
+    <script src="smoothscrolling.js"></script>
+    <!-- <link rel="stylesheet" href="FooterF1.css"> -->
+    <!-- <link rel="stylesheet" href="CultJoin.css"> -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-..." crossorigin="anonymous" />
+    <title>CULT FIT</title>
+    <meta name="robots" content="index, follow">
+    <meta name="keywords"
+        content="Saravedi, Buy Crackers Online, Sivakasi Fireworks Showroom, Crackers price list 2023 Sivakasi">
+    <meta name="description"
+        content="Saravedi - Buy Crackers Online, Sivakasi Fireworks Showroom / Crackers price list 2023 Sivakasi">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="shortcut icon" href="favicon.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+
+
+
+    <style>
+        body{
+    background: #171A26; 
+}
+
+.main{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    
+}
+
+.header{
+
+}
+
+.navbar{
+    padding: 0;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+}
+
+.navbar_main{
+    width: 100%;
+    height: 60px;
+    background-image: linear-gradient(to bottom, #171A26, rgba(23, 26, 38, 0.0001));
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+.nav_content{
+    display: flex;
+    justify-content: space-around;
+    color: aliceblue;
+    font-style: Futura XBlk BT;
+    
+}
+
+.nav_01 > a{
+    /* font-size: 10px; */
+    text-decoration: none;
+    color: rgba(240, 248, 255, 0.795);
+    font-weight: 500;
+}
+.nav_01 > a:hover{
+    color: aliceblue;
+}
+
+.nav_01{
+    padding:4px 7vw 0 0;
+}
+
+.nav_location{
+    display: flex;
+}
+
+.nav_02{
+    padding: 6px 2vw 0 0;
+}
+
+
+.getapp_button{
+    width: 60px;
+    height: 25px;
+    margin-top: 2.5px;
+    border: 1.5px solid rgba(255, 255, 255, 0.75);
+    background: transparent;
+    color: aliceblue;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.nav_hide{
+    display: none;
+}
+
+@media screen and (max-width:785px) {
+    .nav_01{
+        display: none;
+    }
+    .nav_02{
+        display: none;
+    }
+    .nav_hide{
+        display: block;
+}
+}
+
+
+
+.navbar_hovarable{
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 200;
+    background-color: #0c0f18;
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+    </style>
+
+
+
+</head>
+<body>
+    <div>
+        <div class="header">
+            <div class="navbar">
+                <div class="navbar_main">
+                    <div class="nav_logo">
+                        <a href="" class="">
+                        <img src="cultfit.webp" alt="" width="100" class="nav_01">
+                    </a>
+                    <a href="" onclick="showSidebar()">
+                        <img src="icons8-menu-.png" alt="" class="nav_hide" >
+                    </a>
+                </div>
+                    <div class="nav_content">
+                        <div class="nav_01" style="padding-left: 7vw;"><a href="">FITNESS</a></div>
+                        <div class="nav_01"><a href="">CARE</a></div>
+                        <div class="nav_01"><a href="">MIND</a></div>
+                        <div class="nav_01"><a href="">STORE</a></div>
+                        <div class="nav_hide"><a href=""><img src="cult_logo_only.jpg" alt="" width="60" class="only_logo"></a></div>
+                    </div>
+                    <div class="nav_location">
+                        <div class="nav_02"><a href=""><img src="locationlogo.webp" alt="" width="26" height="26"></a>
+                        </div>
+                        <div class="nav_02"><button class="getapp_button">
+                                <div>Get App</div>
+                            </button></div>
+                        <div class="nav_02"><a href=""><img src="accountlogo.webp" alt="" width="26" height="26"></a>
+                        </div>
+                        <div class="nav_hide"><a href=""><img src="accountlogo.webp" alt="" width="26" height="26"></a>
+                        </div>
+                        <div class="nav_02"><a href=""><img src="cartlogo.webp" alt="" width="26" height="26"></a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="navbar_hovarable" >
+                <div class="navbar_main01">
+                    <div class="nav_logo01">
+                        <a href="" class="" onclick="hideSidebar()">
+                        <img src="icons8-cross.png" alt="" width="100" >
+                    </a>
+                </div>
+                    <div class="nav_content01">
+                        <div class="nav_0101"><a href="">FITNESS</a></div>
+                        <div class="nav_0101"><a href="">CARE</a></div>
+                        <div class="nav_0101"><a href="">MIND</a></div>
+                        <div class="nav_0101"><a href="">STORE</a></div>
+                    </div>
+                    <div class="nav_location01">
+                        <div class="nav_0201"><a href=""><img src="locationlogo.webp" alt="" width="26" height="26"></a>
+                        </div>
+                        <div class="nav_0201"><button class="getapp_button">
+                                <div>Get App</div>
+                            </button></div>
+                        <div class="nav_0201"><a href=""><img src="accountlogo.webp" alt="" width="26" height="26"></a>
+                        </div>
+                        <div class="nav_0201"><a href=""><img src="cartlogo.webp" alt="" width="26" height="26"></a></div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <script>
+        function showSidebar(){
+            const sidebar=document.querySelector('.navbar_hovarable')
+            sidebar.style.display='flex'
+        }
+        function hideSidebar(){
+            const sidebar1=document.querySelector('.navbar_hovarable')
+            sidebar1.style.display='none'
+        }
+    </script>
+</body>
+</html>

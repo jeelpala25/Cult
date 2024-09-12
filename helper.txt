@@ -1,0 +1,41 @@
+
+.Box #downcult h2 {
+    margin-top: 11vw;
+    margin-left: 80px;
+    font-family: Inter-Bold, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+    letter-spacing: 0.3px;
+    line-height: 22px;
+    margin-bottom: 4px;
+    /* max-width: 295px; */
+    font-size: 30px;
+    /* margin-right: auto; */
+    font-weight: bold;
+    padding: 5px;
+    color: white;
+    /* gap:3px; */
+    z-index: 1;
+}
+
+.Box #downcult p {
+    margin-left: 80px;
+    font-family: Inter-Bold, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+    padding: 5px;
+    font-weight: bold;
+    color: white;
+    margin-top: 60px;
+    z-index: 2;
+}
+
+.Box #downcult img {
+    margin-left: 200px;
+    /* margin-right: 200px; */
+    height: auto;
+    margin-top: 60px;
+    width: 200px;
+    margin-bottom: 50px;
+}
+
+.Box #downcult .image-1 {
+    border: 2px solid black;
+    z-index: 9999;
+}

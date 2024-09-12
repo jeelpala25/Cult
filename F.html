@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* body {
+            background: #171A26;
+            margin: 0;
+        }
+
+        #page3 {
+            display: flex;
+            align-items: center;
+        }
+
+        .row {
+            justify-content: center;
+        }
+
+        #page3-element .box {
+            height: 400px;
+            width: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            margin-left: 20px;
+        }
+
+        #page3-element .box img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: cover;
+            object-position: center;
+            border-radius: inherit;
+        }
+
+        #page3-element h3 {
+            color: white;
+            font-weight: bold;
+            margin-top: 50px;
+            margin-left: 25px;
+            font-size: x-large;
+        }
+
+        #page3-element p {
+            color: white;
+            margin-top: 5px;
+            margin-left: 25px;
+        }
+
+        .box:hover {
+            transform: translate(-20px);
+            box-shadow: violet;
+        } */
+        <style>
+    body {
+        background: #171A26;
+        margin: 0;
+        /* Reset default body margin */
+    }
+
+    #page3 {
+        display: flex;
+        align-items: center;
+    }
+
+    .row {
+        justify-content: center;
+    }
+
+    .box {
+        height: 400px;
+        width: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        margin: 10px;
+        overflow: hidden; /* Ensure overflow is hidden for proper hover effect */
+    }
+
+    .box img {
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 7px;
+        transition: transform 0.3s ease; /* Add transition for smooth effect */
+    }
+
+    .card {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-align: center;
+        opacity: 0;
+        transition: opacity 0.3s ease; /* Add transition for smooth effect */
+    }
+
+    .box:hover .card {
+        opacity: 1;
+    }
+
+    .box:hover img {
+        transform: scale(1.1); /* Zoom effect on hover */
+    }
+
+    .box:hover {
+        box-shadow: 0 0 20px violet; /* Adjust box shadow on hover */
+    }
+</style>
+    </style>
+
+
+</head>
+
+<body>
+    <div id="page3">
+        <div id="page3-element" class="container-fluid">
+            <div class="row">
+                <div class="box text-white">
+                    <img src="Weight.webp" alt />
+                    <div class="card-img-overlay">
+                        <h3><a href="">cult transform </a><img src="Right_Arrow.svg" alt=""></h3>
+                        <p><a href="">Latest collection Up To 50% Off</a></p>
+                                  
+                    </div>
+                </div>
+                <div class="box text-white">
+                    <img src="FB2.webp" alt />
+                    <div class="card-img-overlay">
+                        <h3><a href="">The .fit way</a></h3>
+                        <p><a href="">Making health easy, one day at a time</a></p>
+                                  
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="box text-white">
+                    <img src="FB3.webp" alt />
+                    <div class="card-img-overlay">
+                        <h3><a href="">Workout Gear</a></h3>
+                        <p><a href="">Everything you need for your workout</a></p>
+                                  
+                    </div>
+                </div>
+                <div class="box text-white">
+                    <img src="FB4.webp" alt />
+                    <div class="card-img-overlay">
+                        <h3><a href="">Suger.fit</a></h3>
+                        <p><a href="">Reverse Type 2 Diabetes and Prediabetes</a></p>
+                                  
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+</body>
+
+</html>
